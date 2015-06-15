@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c64fe244-bf27-4c38-a5e9-f4f1fafdfa33" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/.pgbomit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/bada/icon-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/tizen/icon-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-173-tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-36-ldpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-48-mdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-48-type5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-50-type3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-57-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/windows-phone/icon-62-tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/webos/icon-64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-72-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-72-hdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/bada-wac/icon-80-type4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/blackberry/icon-80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/blackberry/screen-225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/webos/screen-64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-hdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-landscape-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-portrait-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-ipad-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-landscape-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait-568h-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/ios/screen-iphone-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-ldpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-mdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/windows-phone/screen-portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/bada/screen-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/bada-wac/screen-type5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/android/screen-xhdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/MIT.LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/res/screen/tizen/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec/lib/jasmine-1.2.0/jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/spec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="Suprapharm.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Suprapharm" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1600" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Suprapharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Suprapharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Suprapharm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c64fe244-bf27-4c38-a5e9-f4f1fafdfa33" name="Default" comment="" />
+      <created>1434361945411</created>
+      <option name="number" value="Default" />
+      <updated>1434361945411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
