@@ -1,1 +1,2 @@
-console.log("Test");
+var main = require('../jsx/main.jsx');
+
