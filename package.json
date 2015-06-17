@@ -5,7 +5,8 @@
   "main": "Gulpfile.js",
   "dependencies": {
     "react": "^0.13.3",
-    "react-sidebar": "^1.0.2"
+    "react-sidebar": "^1.0.2",
+    "react-tap-event-plugin": "^0.1.7"
   },
   "devDependencies": {
     "babelify": "^6.1.2",

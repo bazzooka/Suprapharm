@@ -2,6 +2,7 @@ import React from 'react';
 import Router from 'react-router';
 import Sidebar from 'react-sidebar';
 import SidebarContent from './components/SidebarContent.jsx';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 let Route = Router.Route,
     RouteHandler = Router.RouteHandler;
@@ -49,24 +50,26 @@ var App = React.createClass({
             },
         };
 
+        console.log("Docked ? ", this.state.docked);
+
         let contentHeader = (
             <span>
-        {!this.state.docked &&
-        <a onClick={this.toggleOpen} href='#' style={styles.contentHeaderMenuLink}>=</a>}
-                <span> Responsive React Sidebar</span>
+                {!this.state.docked &&
+                <a onClick={this.toggleOpen} href='#' style={styles.contentHeaderMenuLink}>===========</a>} <span> Responsive React Sidebar</span>
       </span>);
         let sidebarProps = {
             sidebar: sidebar,
             docked: this.state.docked,
             open: this.state.open,
-            onSetOpen: this.onSetSidebarOpen,
+            onSetOpen: this.onSetOpen,
+            touch: true,
         };
 
         return (
             <Sidebar {...sidebarProps}>
                 {contentHeader}
                 <p>
-                    This example will automatically dock the sidebar if the page
+                    Thiiis example will automatically dock the sidebar if the page
                     width is above 800px (which is currently {''+this.state.docked}).
                 </p>
                 <p>
@@ -76,6 +79,7 @@ var App = React.createClass({
                     content is now {this.state.docked ? 'hidden' : 'shown'} because the sidebar
                     is {!this.state.docked && 'not'} visible.
                 </p>
+                <div style={{"position":"absolute", "bottom": 0, "right": 0,"background": "black", "color": "white"}} id="debugger">1231321321</div>
             </Sidebar>
         )
     }
