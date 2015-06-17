@@ -1,4 +1,5 @@
 import React from "react/addons";
+import {Menus} from "../../datas/menu.js";
 
 const update = React.addons.update;
 
@@ -18,7 +19,6 @@ const styles = {
         backgroundColor: '#757575',
     },
 };
-
 var SidebarContent = React.createClass({
     render() {
         let style = styles.sidebar;
@@ -26,12 +26,11 @@ var SidebarContent = React.createClass({
         if (this.props.style) {
             style = update(style, {$merge: this.props.style});
         }
-
-        let links = [];
-
-        for(let i=0; i < 10; i++) {
+        let links = [],
+            entries = Menus.entries;
+        for(let i = 0, l = entries.length; i < l; i++) {
             links.push(
-                <a key={i} href='#' style={styles.sidebarLink}>Mock menu item {i}</a>);
+                <a key={i} href={entries[i].href} style={styles.sidebarLink} dangerouslySetInnerHTML={{__html:entries[i].title}}></a>);
         }
 
         return (

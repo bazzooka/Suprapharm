@@ -122,10 +122,13 @@ var About = React.createClass({
 // declare our routes and their hierarchy
 var routes = (
     <Route handler={App}>
-        <Route name ="about" path="about" handler={About}/>
-        <Route path="inbox" handler={Inbox}>
-            <Route path="messages/:id" handler={Message}/>
-        </Route>
+        <Route path="/"             handler={HomePage}/>
+        <Route path="/catalogue"    handler={CataloguePage}/>
+        <Route path="/pharmacies"   handler={PharmaciesPage}/>
+        <Route path="/conseils"     handler={ConseilsPage}/>
+        <Route path="/jeux"         handler={JeuxPage}/>
+        <Route path="/medicaments"  handler={MedicamentsPage}/>
+        <Route path="/about"        handler={AboutPage}/>
     </Route>
 );
 

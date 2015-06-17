@@ -7,6 +7,7 @@
 4. Entrée / sortie de zone pharma => évaluation de la pharmacie
 5. Conseils du mois
 6. Jeux brain minded
+7. Les médicaments
 x. Scanne d'ordonnance avec infos (quand la mettre à dispo, email pour notification, téléphone pour sms...)
 x. Carte de fidélité
 x. Envoyez une photo avec un produit acheté
