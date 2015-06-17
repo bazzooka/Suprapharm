@@ -8,6 +8,8 @@ let Route = Router.Route,
     RouteHandler = Router.RouteHandler;
 
 var App = React.createClass({
+    mixins: [ Router.State ],
+
     getInitialState() {
         return {docked: false, open: false};
         this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
@@ -39,8 +41,15 @@ var App = React.createClass({
         this.setState({docked: this.state.mql.matches});
     },
 
+    onMenuClick(menuItem){
+        if(this.getPathname() !== menuItem.href){
+            // TODO transition
+            this.setState({open:false});
+        }
+    },
+
     render : function(){
-        let sidebar = <SidebarContent />;
+        let sidebar = <SidebarContent onMenuClick={this.onMenuClick}/>;
 
         const styles = {
             contentHeaderMenuLink: {
@@ -49,8 +58,6 @@ var App = React.createClass({
                 padding: 8,
             },
         };
-
-        console.log("Docked ? ", this.state.docked);
 
         let contentHeader = (
             <span>
@@ -68,51 +75,86 @@ var App = React.createClass({
         return (
             <Sidebar {...sidebarProps}>
                 {contentHeader}
-                <p>
-                    Thiiis example will automatically dock the sidebar if the page
-                    width is above 800px (which is currently {''+this.state.docked}).
-                </p>
-                <p>
-                    This functionality should live in the component that renders the sidebar.
-                    This way you're able to modify the sidebar and main content based on the
-                    responsiveness data. For example, the menu button in the header of the
-                    content is now {this.state.docked ? 'hidden' : 'shown'} because the sidebar
-                    is {!this.state.docked && 'not'} visible.
-                </p>
-                <div style={{"position":"absolute", "bottom": 0, "right": 0,"background": "black", "color": "white"}} id="debugger">1231321321</div>
+                <div>
+                    <RouteHandler/>
+                </div>
+                <div style={{"position":"absolute", "bottom": 0, "right": 0,"background": "black", "color": "white"}} id="debugger">DEBUGGER</div>
             </Sidebar>
         )
     }
 });
 
-var Inbox = React.createClass({
+var HomePage = React.createClass({
     render () {
         return (
             <div>
-                <h1>Inbox</h1>
+                <h1>HomePage</h1>
                 <RouteHandler/>
             </div>
         )
     }
 });
 
-var Message = React.createClass({
+var CataloguePage = React.createClass({
     render () {
         return (
             <div>
-                <span>Inbox 2</span>
+                <h1>CataloguePage</h1>
                 <RouteHandler/>
             </div>
         )
     }
 });
 
-
-var About = React.createClass({
+var PharmaciesPage = React.createClass({
     render () {
         return (
             <div>
-                <h1>About</h1>
+                <h1>PharmaciesPage</h1>
+                <RouteHandler/>
+            </div>
+        )
+    }
+});
+
+var ConseilsPage = React.createClass({
+    render () {
+        return (
+            <div>
+                <h1>ConseilsPage</h1>
+                <RouteHandler/>
+            </div>
+        )
+    }
+});
+
+var JeuxPage = React.createClass({
+    render () {
+        return (
+            <div>
+                <h1>JeuxPage</h1>
+                <RouteHandler/>
+            </div>
+        )
+    }
+});
+
+var MedicamentsPage = React.createClass({
+    render () {
+        return (
+            <div>
+                <h1>MedicamentsPage</h1>
+                <RouteHandler/>
+            </div>
+        )
+    }
+});
+
+var AboutPage = React.createClass({
+    render () {
+        return (
+            <div>
+                <h1>AboutPage</h1>
                 <RouteHandler/>
             </div>
         )
@@ -135,3 +177,9 @@ var routes = (
 Router.run(routes, function(Handler) {
     React.render(<Handler />, document.getElementById('master-container'));
 });
+
+//React.render((
+//    <Router>
+//        {routes}
+//    </Router>
+//), document.getElementById('master-container'));

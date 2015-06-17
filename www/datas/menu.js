@@ -2,25 +2,22 @@ export var Menus = {
     entries: [
         {
             "title" : "Accueil",
-            "href": "#/"
+            "href": "/"
         }, {
             "title" : "Catalogue",
-            "href": "#/catalogue"
+            "href": "/catalogue"
         }, {
             "title" : "Pharmacies",
-            "href": "#/pharmacies"
+            "href": "/pharmacies"
         }, {
             "title" : "Conseils",
-            "href": "#/conseils"
+            "href": "/conseils"
         }, {
             "title" : "Jeux",
-            "href": "#/jeux"
-        }, {
-            "title" : "Jeux",
-            "href": "#/jeux"
+            "href": "/jeux"
         }, {
             "title" : "M&eacute;dicaments",
-            "href": "#/medicaments"
+            "href": "/medicaments"
         }
     ]
 };

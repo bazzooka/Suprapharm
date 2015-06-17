@@ -1,4 +1,5 @@
 import React from "react/addons";
+import {Link} from "react-router";
 import {Menus} from "../../datas/menu.js";
 
 const update = React.addons.update;
@@ -30,7 +31,8 @@ var SidebarContent = React.createClass({
             entries = Menus.entries;
         for(let i = 0, l = entries.length; i < l; i++) {
             links.push(
-                <a key={i} href={entries[i].href} style={styles.sidebarLink} dangerouslySetInnerHTML={{__html:entries[i].title}}></a>);
+                <Link to={entries[i].href} dangerouslySetInnerHTML={{__html:entries[i].title}} onClick={() => this.props.onMenuClick(entries[i])}></Link>
+            )
         }
 
         return (
