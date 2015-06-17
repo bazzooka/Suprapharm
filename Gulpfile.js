@@ -42,6 +42,7 @@ var browserifyTask = function(options){
      a "main.js" file in our "build" folder. */
     var rebundle = function () {
         var start = Date.now();
+        console.log('Building APP bundle.......... ');
         appBundler.bundle()
             .on('error', gutil.log)
             .on('prebundle', function(bundle) {
