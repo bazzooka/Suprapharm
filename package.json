@@ -4,11 +4,14 @@
   "description": "Suprapharm mobile app",
   "main": "Gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.0"
+    "react": "^0.13.3",
+    "react-sidebar": "^1.0.2"
   },
   "devDependencies": {
+    "babelify": "^6.1.2",
     "browserify": "^10.2.4",
     "glob": "^5.0.10",
+    "gulp-babel": "^5.1.0",
     "gulp-concat": "^2.5.2",
     "gulp-cssmin": "^0.1.7",
     "gulp-if": "^1.2.5",

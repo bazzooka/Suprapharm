@@ -1,15 +1,28 @@
-var React = require('react'),
-    Router = require('react-router'),
-    Route = Router.Route,
+import React from 'react';
+import Router from 'react-router';
+import Sidebar from 'react-sidebar';
+
+let Route = Router.Route,
     RouteHandler = Router.RouteHandler;
 
 var App = React.createClass({
-    render () {
+    getInitialState: function() {
+        return {sidebarOpen: false};
+    },
+
+    onSetSidebarOpen: function(open) {
+        this.setState({sidebarOpen: open});
+    },
+
+    render : function(){
+        var sidebarContent = <b>Sidebar content</b>;
+
         return (
-            <div>
-                <h1>App</h1>
-                <RouteHandler/>
-            </div>
+            <Sidebar sidebar={sidebarContent}
+                     open={this.state.sidebarOpen}
+                     onSetOpen={this.onSetSidebarOpen}>
+                <b>Main content</b>
+            </Sidebar>
         )
     }
 });
@@ -61,12 +74,3 @@ var routes = (
 Router.run(routes, function(Handler) {
     React.render(<Handler />, document.getElementById('master-container'));
 });
-
-//React.render((
-//    <Router history={Router.HashLocation}>
-//        <Route handler={App}>
-//            <Route path="about" handler={About}/>
-//            <Route path="inbox" handler={Inbox}/>
-//        </Route>
-//    </Router>
-//), document.getElementById('example'));
